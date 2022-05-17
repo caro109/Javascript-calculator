@@ -1,0 +1,69 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calculadoraa.css">
+    <title>calculadora</title>
+</head>
+
+<body>
+    <center>
+        <table>
+            <tr>
+                <td colspan="5" align="center" class="pantalla">
+                    <input name="display" type="text" class="color_display" id="display"></td>
+            </tr>
+
+            <tr>
+                <td><input name="button" type="button" class="numero " id="button" value="+" onclick="mostrar_numero(value)"></td>
+                <td><input name="button" type="button" class="numero " id="button" value="-" onclick="mostrar_numero(value)"></td>
+                <td><input name="button" type="button" class="numero " id="button" value="*" onclick="mostrar_numero(value)"></td>
+                <td><input name="button" type="button" class="numero" id="button" value="/" onclick="mostrar_numero(value)"></td>
+                <td><input name="button" type="button" class="numero" id="button" value="log2" onclick="logaritmo()"></td>
+            </tr>
+
+            <tr>
+                <td><input name="num7 " type="button" class="numero " id="num7 " value="7 " onclick="mostrar_numero(7)"></td>
+                <td><input name="num8 " type="button" class="numero " id="num8 " value="8" onclick="mostrar_numero(8)"></td>
+                <td><input name="num9 " type="button" class="numero " id="num9 " value="9 " onclick="mostrar_numero(9)"></td>
+                <td><input name="button" type="button" class="numero " id="button" value="(" onclick="mostrar_numero(value)"></td>
+                <td><input name="button" type="button" class="numero" id="button" value="log10" onclick="logaritmo10()"></td>
+            </tr>
+
+            <tr>
+                <td><input name=" num4 " type="button" class="numero " id="num4 " value="4 " onclick="mostrar_numero(4)"></td>
+                <td><input name=" num5 " type="button" class="numero " id="num5 " value="5 " onclick="mostrar_numero(5)"></td>
+                <td><input name="num6 " type="button" class="numero " id="num6 " value="6 " onclick="mostrar_numero(6)"></td>
+                <td><input name="button9" type="button" class="numero " id="button" value="cos" onclick="coseno()"></td>
+                <td><input name="button" type="button" class="numero" id="button" value="sen" onclick="seno()"></td>
+            </tr>
+
+            <tr>
+                <td><input name="num3" type="button" class="numero " id="num3 " value="3 " onclick="mostrar_numero(3)"></td>
+                <td><input name="num2 " type="button" class="numero " id="num2 " value="2 " onclick="mostrar_numero(2)"></td>
+                <td><input name="num1 " type="button" class="numero " id="num1 " value="1 " onclick="mostrar_numero(1)"></td>
+                <td><input name="button" type="button" class="numero " id="button" value=")" onclick="mostrar_numero(value)"></td>
+                <td><input name="button" type="button" class="numero" id="button" value="^2" onclick="elevado2()"></td>
+            </tr>
+
+            <tr>
+                <td><input name=" num0 " type="button" class="numero " id="num0 " value="0 " onclick="mostrar_numero(0) "></td>
+                <td><input name=" button6 " type="button" class="numero " id="button " value=". " onclick="mostrar_numero(value)"></td>
+                <td><input name="button7 " type="button" class="numero " id="button " value="C " onclick="borrar()"></td>
+                <td><input name="button5 " type="button" class="numero " id="button " value="=" onclick="operaciones()"></td>
+                <td><input name="button" type="button" class="numero" id="button" value="^3" onclick="elevado3()"></td>
+            </tr>
+        </table>
+    </center>
+
+
+
+
+
+
+    <script src="calculadoraa.js"></script>
+</body>
+
+</html>
